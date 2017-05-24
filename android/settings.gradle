@@ -1,0 +1,5 @@
+rootProject.name = 'PatchView'
+include ':react-native-9patch-image'
+project(':react-native-9patch-image').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-9patch-image/android')
+
+include ':app'
